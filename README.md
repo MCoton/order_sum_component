@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo on Git Hub](https://github.com/MCoton/order_sum_component)
+- Live Site URL: [Order summary component (GitHub Pages)](https://mcoton.github.io/order_sum_component/)
 
 ## My process
 This time started with mobile first, designe the component to work with the stated design size, then made sure it would be responsive to a change in screen size using a media query.
@@ -61,7 +61,6 @@ As ever, I clearly need to keep ironing out bumps and filling gaps in my CSS ski
 
 ## Author
 
-- Website - [Martin Coton](https://www.your-site.com)
 - Frontend Mentor - [@MCoton](https://www.frontendmentor.io/profile/MCoton)
 - Twitter - [@Martin_Coton](https://www.twitter.com/Martin_Coton)
 
