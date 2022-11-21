@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', serif;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    margin: 0 auto;
+    width: 375px;
+    height: min-content;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.hero-text {
+    margin: 30px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.hero-text > p {
+    margin: 0px 20px;
+    line-height: 1.8rem;
+}
+
+.price-plan{
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-image {
+    height: 100%;
+}
+
+.plan-and-price-wrapper {
+    padding-right: 30px;
+}
+
+.plan-name, .price{
+    margin: 0px;
+    line-height: 1.5rem;
+}
+
+.plan-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.div-change-link {
+    align-self: center;
+    font-weight: 700;
+}
+
+/* Remove underline from link on mouse hover */
+.change-link:hover {
+    text-decoration: none;
+    opacity: 75%;
+}
+.change-link:visited {
+    color: hsl(245, 75%, 52%);
+}
+
+.buttons {
+    align-items: center;
+}
+
+.proceed, .cancel {
+    margin: 10px auto 0px;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    filter: drop-shadow(0 20px 5px hsl(225, 100%, 94%)) ;
+}
+.proceed:hover {
+    opacity: 75%;
+}
+
+.cancel {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 10px;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    margin: 5px auto;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 475px){
+    main {
+        width: 450px;
+    }
+    .plan-and-price-wrapper {
+        padding-right: 75px;
+    }
+
+}
